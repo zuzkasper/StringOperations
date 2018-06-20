@@ -1,4 +1,4 @@
-all : sixth.c
-	gcc -Wall -Werror -fsanitize=address -o sixth sixth.c
+all : stringOp.c
+	gcc -Wall -Werror -fsanitize=address -o stringOp stringOp.c
 clean :
-	rm -rf sixth
+	rm -rf stringOp
